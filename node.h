@@ -9,9 +9,7 @@
 */
 typedef struct node node;
 struct node {
-    node* l;
-    node* r;
-    long d;
+    #include "struct_node.h"
 };
 
 /*
