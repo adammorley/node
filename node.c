@@ -7,8 +7,8 @@
 node* node_new(long d) {
     node* n = malloc(sizeof(node));
     if (n == NULL) assert(true);
-    n->n = NULL;
-    n->p = NULL;
+    n->r = NULL;
+    n->l = NULL;
     n->d = d;
     return n;
 }
