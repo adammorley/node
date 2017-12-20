@@ -1,15 +1,11 @@
 #ifndef NODE_H
 #define NODE_H
 
-/*
-    l == previous
-    r == next
-    (yes, this is western-centric, but it
-     makes the code extendable for trees)
-*/
 typedef struct node node;
 struct node {
-    #include "struct_node.h"
+    node* p;
+    node* n;
+    long d;
 };
 
 /*
