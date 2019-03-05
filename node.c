@@ -7,7 +7,7 @@
 // returns ownership
 node* node_new(long d) {
     node* n = malloc(sizeof(node));
-    if (n == NULL) assert(true);
+    if (n == NULL) assert(false);
     n->p = NULL;
     n->n = NULL;
     n->d = d;
